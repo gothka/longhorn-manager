@@ -69,7 +69,7 @@ const (
 )
 
 var (
-	cmdTimeout     = time.Minute * 30 // one minute by default
+	cmdTimeout     = time.Minute * 15 // one minute by default
 	reservedLabels = []string{"KubernetesStatus", "ranchervm-base-image"}
 
 	APIRetryInterval       = 500 * time.Millisecond
