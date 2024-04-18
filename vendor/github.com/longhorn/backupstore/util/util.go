@@ -36,9 +36,9 @@ const (
 )
 
 var (
-	cmdTimeout = time.Minute // one minute by default
+	cmdTimeout = time.Minute * 5 // one minute by default
 
-	forceCleanupMountTimeout = 30 * time.Second
+	forceCleanupMountTimeout = 60 * time.Second
 )
 
 func fstypeToKind(fstype int64) (string, error) {

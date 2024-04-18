@@ -23,7 +23,7 @@ const (
 )
 
 var (
-	cmdTimeout = time.Minute // one minute by default
+	cmdTimeout = time.Minute * 3 // one minute by default
 )
 
 type KernelDevice struct {
